@@ -1,0 +1,93 @@
+# Legal Intelligence Platform - Cursor AI Rules
+
+## Spec-Kit Integration
+This project uses GitHub Spec-Kit for specification-driven development with JusticeOS™ principles.
+
+## Available Slash Commands
+
+### Spec-Kit Commands
+- `/speckit.constitution` - Review/update governing principles in `.specify/memory/constitution.md`
+- `/speckit.specify` - Create new feature specification in `specs/` directory
+- `/speckit.plan` - Generate technical implementation plan from specifications
+- `/speckit.tasks` - Break down implementation plan into atomic tasks
+- `/speckit.implement` - Execute tasks with Test-Driven Development (TDD)
+- `/speckit.clarify` - Ask structured questions to de-risk ambiguous areas
+- `/speckit.analyze` - Cross-artifact consistency & alignment report
+- `/speckit.checklist` - Generate quality checklists to validate requirements
+
+## JusticeOS™ Constitutional Principles (NON-NEGOTIABLE)
+
+### I. Empathy-First Design
+- Self-represented litigants are primary users, not lawyers
+- Assume users are in crisis, experiencing trauma, or under time pressure
+- Minimize cognitive load and emotional burden at every interaction
+
+### II. Accessibility Excellence
+- WCAG AAA compliance required (not AA)
+- Mobile-first design for slow connections and older devices
+- Screen reader compatibility tested with NVDA/JAWS
+- Color contrast ratios must exceed 7:1
+
+### III. Performance Budgets
+- Initial page load: <3 seconds on 3G
+- Time to Interactive: <5 seconds
+- 60fps animations with no jank during stress
+- Bundle size: <200KB initial JS
+
+### IV. Evidence-Based Development
+- No "should work" without Playwright verification
+- All legal claims backed by case law citations (Shepardized)
+- User testing with actual self-represented litigants before merge
+
+### V. Trauma-Informed UX
+- No aggressive CTAs or dark patterns
+- Clear escape routes from any workflow
+- Progress auto-saves (never lose work during crisis)
+- Plain language (8th grade reading level max)
+
+### VI. Security & Privacy
+- All PII encrypted at rest
+- No third-party trackers without explicit consent
+- Document retention policies aligned with California court rules
+
+## Development Standards
+
+### Python Code Quality
+- Use `ruff check` with zero errors required
+- Type hints required for all functions
+- Docstrings for all public functions
+- Follow PEP 8 with 88-character line limit
+
+### Git Workflow
+- Descriptive commit messages (no "fix" or "update")
+- Atomic commits (one logical change per commit)
+- Maintain audit trail for legal compliance
+- Use conventional commit format when possible
+
+### Legal Intelligence Platform Context
+- Processes legal evidence from Google Takeout exports
+- Case files: FDI-21-794666, FDV-24-817888, A171270
+- Email evidence from divorce proceedings (2019-2022)
+- Contact management for legal professionals
+
+### Demo Success Criteria (Pre-JusticeOS Merge)
+- Successfully parse and deduplicate contacts from 20+ email threads
+- Generate participant scorecards with response metrics
+- Maintain all git history for audit trail
+- Zero breaking changes when merged into JusticeOS repo
+
+## Quality Gates
+- All Python scripts must pass `ruff check` with zero errors
+- All CSV exports must validate against schema
+- Git commits must include descriptive messages
+- Documentation must be current (no stale README content)
+- All legal claims backed by case law citations (Shepardized)
+- User testing with actual self-represented litigants before merge
+
+## Crisis-Aware Development
+- Assume users are in crisis, experiencing trauma, or under time pressure
+- Every feature must reduce cognitive load and emotional burden
+- No aggressive CTAs or dark patterns
+- Clear escape routes from any workflow
+- Progress auto-saves (never lose work during crisis)
+- Plain language (8th grade reading level max)
